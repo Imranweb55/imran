@@ -107,14 +107,14 @@ export default function Hero() {
           />
 
           {/* Floating experience badge */}
-          <div className="absolute -bottom-6 right-2 rounded-2xl bg-white px-6 py-4 shadow-xl sm:right-8">
+          {/* <div className="absolute -bottom-6 right-2 rounded-2xl bg-white px-6 py-4 shadow-xl sm:right-8">
             <p className="text-2xl font-bold text-gray-900">2+</p>
             <p className="text-sm leading-tight text-gray-500">
               Years of
               <br />
               Experience
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
