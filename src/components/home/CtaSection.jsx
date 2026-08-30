@@ -33,7 +33,7 @@ export default function CtaSection() {
             </p>
             <p className="flex items-center gap-2">
               <MapPin size={15} />
-              India
+              Chennai, India
             </p>
           </div>
         </div>

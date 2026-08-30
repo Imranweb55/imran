@@ -6,13 +6,13 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body {
   @apply font-body text-[#111114] antialiased;
   background-color: #FAFAFC;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 h1,

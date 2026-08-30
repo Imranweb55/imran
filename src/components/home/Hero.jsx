@@ -24,7 +24,8 @@ export default function Hero() {
 
           <h1 className="mt-6 text-4xl font-bold leading-tight text-gray-900 sm:text-5xl">
             Hi, I&apos;m <span className="text-brand-600">Imran !</span>
-            <br />I Build Digital Experiences
+            <br />
+            Building scalable software and seamless digital experiences.
           </h1>
 
           <p className="mt-5 max-w-md text-gray-500">
