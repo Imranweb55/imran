@@ -22,10 +22,9 @@ export default function Hero() {
             Full Stack Developer
           </span>
 
-          <h1 className="mt-6 text-4xl font-bold leading-tight text-gray-900 sm:text-4xl">
+          <h1 className="mt-6 text-4xl font-bold leading-tight text-gray-900 sm:text-5xl">
             Hi, I&apos;m <span className="text-brand-600">Imran !</span>
-            <br />
-            Transforming Ideas into Seamless Digital Experiences
+            <br />I Build Digital Experiences
           </h1>
 
           <p className="mt-5 max-w-md text-gray-500">
@@ -78,9 +77,12 @@ export default function Hero() {
             }}
           />
 
-          {/* Organic (non-circular) blob shape behind the portrait */}
+          {/* Organic (non-circular) blob shape behind the portrait.
+              Sized responsively so it never exceeds the width of narrow
+              phone screens (this fixed-460px shape was the cause of the
+              page-wide horizontal scroll on mobile). */}
           <svg
-            className="absolute inset-0 m-auto h-[460px] w-[460px] text-brand-50"
+            className="absolute inset-0 m-auto h-64 w-64 text-brand-50 sm:h-80 sm:w-80 md:h-96 md:w-96 lg:h-[460px] lg:w-[460px]"
             viewBox="0 0 200 200"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -92,26 +94,27 @@ export default function Hero() {
           </svg>
 
           {/* Small accent dot */}
-          <div className="absolute right-10 top-16 h-3 w-3 rounded-full bg-brand-400" />
+          <div className="absolute right-10 top-16 hidden h-3 w-3 rounded-full bg-brand-400 sm:block" />
 
           {/* Real photo, shown directly as a large cutout (no box/card around it) —
               exactly like the reference design. Update the import above if your
-              file name/extension is different from src/assets/profile.png. */}
+              file name/extension is different from src/assets/profile.png.
+              max-w-full stops it from ever overflowing a narrow viewport. */}
           <img
             src={profileImage}
             alt="Imran"
-            className="relative z-10 h-[420px] w-auto object-contain drop-shadow-2xl sm:h-[480px] lg:h-[520px]"
+            className="relative z-10 h-[300px] w-auto max-w-full object-contain drop-shadow-2xl sm:h-[380px] md:h-[440px] lg:h-[520px]"
           />
 
           {/* Floating experience badge */}
-          {/* <div className="absolute -bottom-6 right-2 rounded-2xl bg-white px-6 py-4 shadow-xl sm:right-8">
+          <div className="absolute -bottom-6 right-2 rounded-2xl bg-white px-6 py-4 shadow-xl sm:right-8">
             <p className="text-2xl font-bold text-gray-900">2+</p>
             <p className="text-sm leading-tight text-gray-500">
               Years of
               <br />
               Experience
             </p>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
