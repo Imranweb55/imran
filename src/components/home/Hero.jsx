@@ -1,14 +1,33 @@
 import { ArrowRight, Mail } from "lucide-react";
-import { LinkedinIcon, GithubIcon, XIcon } from "../icons/SocialIcons.jsx";
+import {
+  LinkedinIcon,
+  GithubIcon,
+  WhatsappIcon,
+} from "../icons/SocialIcons.jsx";
 // Place your photo at src/assets/profile.png (or update this path/extension
 // to match your actual file name).
 import profileImage from "../../assets/profile.png";
 
+// Pre-filled, professional-but-casual opener for the WhatsApp chat.
+const WHATSAPP_MESSAGE = encodeURIComponent(
+  "Hi Imran! I came across your portfolio and would love to connect about a potential project.",
+);
+
 const SOCIALS = [
-  { icon: LinkedinIcon, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: GithubIcon, href: "https://github.com", label: "GitHub" },
-  { icon: XIcon, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:hello@imrani.dev", label: "Email" },
+  {
+    icon: LinkedinIcon,
+    href: "https://linkedin.com/in/imransoftdev02",
+    label: "LinkedIn",
+  },
+  { icon: GithubIcon, href: "https://github.com/Imranweb55", label: "GitHub" },
+  {
+    icon: WhatsappIcon,
+    // 8939720567 assumed to be an Indian number, so the +91 country code
+    // is prepended — update this if that assumption is wrong.
+    href: `https://wa.me/918939720567?text=${WHATSAPP_MESSAGE}`,
+    label: "WhatsApp",
+  },
+  { icon: Mail, href: "mailto:imran.softdev1@gmail.com", label: "Email" },
 ];
 
 export default function Hero() {
@@ -35,7 +54,7 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <a
-              href="/projects"
+              href="#featured-projects"
               className="inline-flex items-center gap-2 rounded-full bg-dark px-6 py-3.5 text-sm font-medium text-white transition-colors hover:bg-dark-soft"
             >
               View My Work

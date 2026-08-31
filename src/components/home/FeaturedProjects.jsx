@@ -167,7 +167,7 @@ export default function FeaturedProjects() {
   }, []);
 
   return (
-    <section className="pb-24">
+    <section id="featured-projects" className="pb-24">
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-10">
         <p className="text-sm font-semibold uppercase tracking-widest text-brand-600">
           My Work

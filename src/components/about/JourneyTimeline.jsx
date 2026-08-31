@@ -9,69 +9,95 @@ import YearDetailModal from "./YearDetailModal.jsx";
 // Milestone, Present) so it gets the matching color automatically.
 const JOURNEY = [
   {
-    year: "2016",
+    year: "2018",
     tag: "Education",
-    title: "Started High School",
-    oneLiner: "Began high school and first got curious about computers.",
+    title: "10th Standard (SSLC)",
+    oneLiner:
+      "Started my secondary education and built the foundation for my academic journey.",
     fullContent:
-      "Started high school and discovered an early interest in how computers and websites actually worked.\nThis curiosity became the starting point for everything that followed.",
+      "Started my 10th standard at Dharmamurthi Rao Bahadur Calavala Cunnan Chetty's Higher Secondary School in 2018 and successfully completed it in 2019.\nThis stage of my education helped me strengthen my academic foundation while developing discipline, consistency, and a growing curiosity to learn new things.\nIt was also during this period that I began taking a greater interest in computers and technology, which later became an important part of my career journey.",
   },
   {
-    year: "2019",
-    tag: "Milestone",
-    title: "Wrote My First Line of Code",
-    oneLiner: "Built a basic HTML page and got hooked on web development.",
+    year: "2020",
+    tag: "Education",
+    title: "12th Standard (HSC)",
+    oneLiner:
+      "Completed higher secondary education while strengthening my academic foundation and future goals.",
     fullContent:
-      "Wrote my very first HTML and CSS page and saw a browser render something I had built myself.\nThat small moment was enough to get me hooked on web development.",
+      "Continued my higher secondary education at Dharmamurthi Rao Bahadur Calavala Cunnan Chetty's Higher Secondary School in 2020, building on the foundation developed during my earlier school years.\nThis phase of my education helped me develop greater discipline, time management, and a more focused approach toward learning and achieving my academic goals.\nAlongside my studies, I continued developing my interest in computers and technology, which gradually influenced the direction I wanted to take for my higher education and future career.\nCompleting my higher secondary education marked an important transition from school life to the next stage of my academic and professional journey.",
   },
   {
     year: "2021",
     tag: "Education",
-    title: "Completed Schooling",
-    oneLiner: "Finished school and decided to pursue a career in tech.",
-    fullContent:
-      "Completed my schooling and used the time afterward to explore programming more seriously.\nBy the end of that year, I had decided to pursue a career in technology.",
-  },
-  {
-    year: "2022",
-    tag: "Education",
-    title: "Started College",
+    title: "Started My Engineering Journey",
     oneLiner:
-      "Enrolled in a Computer Science program to build strong fundamentals.",
+      "Joined a B.E. Computer Science and Engineering program and began my journey into technology.",
     fullContent:
-      "Enrolled in a Computer Science program to build a solid foundation in programming, data structures and problem solving.\nThis is also when I started building small personal projects on the side.",
+      "In 2021, I joined Gojan School of Business and Technology, affiliated with Anna University, to pursue a Bachelor of Engineering in Computer Science and Engineering.\nThis marked an important step toward turning my growing interest in computers and technology into a focused academic and professional path.\nThroughout my engineering journey, I developed a stronger understanding of programming, software development, databases, web technologies, and modern computing concepts while working on academic and practical projects.\nThe four-year journey also helped me improve my problem-solving abilities, teamwork, adaptability, and ability to apply technical knowledge to real-world challenges.\nI successfully completed my B.E. in Computer Science and Engineering in 2025, providing the foundation for my transition into the software and technology industry.",
   },
+
   {
-    year: "2023",
-    tag: "Work",
-    title: "First Freelance Project",
-    oneLiner: "Delivered my first client website as a freelancer.",
+    year: "2024",
+    tag: "Experience",
+    title: "Gained My First Industry Experience",
+    oneLiner:
+      "Started my first internship and gained hands-on experience working in a professional development environment.",
     fullContent:
-      "Took on my first freelance project and delivered a complete website for a client from start to finish.\nIt taught me a lot about working with real requirements, deadlines and feedback.",
+      "In 2024, during the third year of my B.E. in Computer Science and Engineering, I stepped into a professional environment through my first internship.\nThis experience gave me the opportunity to move beyond academic learning and understand how software projects are planned, developed, tested, and delivered in a real-world environment.\nI worked with practical development tasks, collaborated with team members, and learned how to understand requirements, solve technical problems, follow development practices, and work within project timelines.\nThe internship helped me build greater confidence as a developer and gave me valuable insight into professional software development, teamwork, communication, and delivering solutions based on real business requirements.",
   },
   {
     year: "2024",
-    tag: "Work",
-    title: "Became a Full Stack Developer",
-    oneLiner: "Deepened my skills in React, Node.js and MongoDB.",
+    tag: "Project",
+    title: "Built an Earthquake Prediction Project",
+    oneLiner:
+      "Developed a mini project exploring earthquake prediction through data analysis and machine learning.",
     fullContent:
-      "Focused on strengthening my full stack skills — React and Tailwind CSS on the frontend, Node.js, Express and MongoDB on the backend.\nStarted building complete, end-to-end products instead of isolated pieces.",
+      "During my third year of engineering in 2024, I worked on an academic mini project focused on earthquake prediction and analysis.\nThe project introduced me to the process of working with real-world datasets, understanding patterns in historical earthquake data, preparing data for analysis, and exploring machine learning techniques to build a prediction-oriented model.\nThrough this project, I gained practical experience in data preprocessing, model development, testing, and interpreting results while learning how technology can be applied to complex real-world problems.\nMore importantly, the project strengthened my interest in solving practical challenges through software, data, and intelligent systems, while improving my ability to work through a complete project lifecycle from research and development to final implementation.",
   },
   {
     year: "2025",
-    tag: "Milestone",
-    title: "Growing as a Developer",
-    oneLiner: "Took on more complex projects and expanded my portfolio.",
+    tag: "Education & Project",
+    title: "Completed My Engineering Degree",
+    oneLiner:
+      "Graduated in Computer Science and led a team to build a full-stack mobile attendance system.",
     fullContent:
-      "Worked on more complex, real-world style projects and expanded my portfolio with CRM, e-commerce and productivity tools.\nAlso got more comfortable owning a project from planning through deployment.",
+      "In 2025, I successfully completed my B.E. in Computer Science and Engineering at Gojan School of Business and Technology, affiliated with Anna University, marking the completion of my four-year engineering journey.\nAs part of my final-year project, I took on the role of Team Leader and led a team in developing a mobile-based attendance management application with a dedicated backend system.\nThe project involved designing and developing the mobile application, building backend services, managing data, and connecting the application with the backend to create a complete end-to-end attendance solution.\nAs the team leader, I was responsible for coordinating development tasks, helping resolve technical challenges, managing project progress, and ensuring that the different components worked together effectively.\nThis project gave me valuable hands-on experience in mobile application development, backend integration, database management, teamwork, leadership, and delivering a complete software solution from concept to implementation.",
+  },
+  {
+    year: "2025",
+    tag: "Career",
+    title: "Received My First Professional Opportunity",
+    oneLiner:
+      "Received an offer for a JavaScript Trainer role and made a career decision based on my long-term development goals.",
+    fullContent:
+      "After completing my engineering degree in 2025, I received an opportunity from Rakko Technologies to join as a JavaScript Trainer, based on my programming and JavaScript skills.\nThe opportunity was an encouraging milestone and gave me confidence that the technical skills I had developed throughout my engineering journey were being recognized professionally.\nAfter carefully considering the role, responsibilities, and long-term learning opportunities, I decided not to accept the offer because I wanted to pursue a path that provided stronger exposure to software development and continued technical growth.\nAlthough I did not take up the position, the experience helped me become more intentional about choosing opportunities that align with my long-term goals as a software developer.",
   },
   {
     year: "2026",
-    tag: "Present",
-    title: "Today",
-    oneLiner: "Continuing to build clean, scalable, user-friendly web apps.",
+    tag: "Project",
+    title: "Built My Own Mobile Application",
+    oneLiner:
+      "Built and developed my own full-stack mobile application, gaining complete end-to-end development experience.",
     fullContent:
-      "Currently focused on building clean, scalable and user-friendly web applications, and always looking for the next interesting problem to solve.",
+      "After completing my internship in February 2026, I took on an independent project and built my own mobile application from the ground up.\nThis project gave me the opportunity to apply everything I had learned through my education, projects, and internship experience in a single real-world application.\nI worked across the complete development cycle, including planning the application structure, designing the user experience, developing the mobile frontend, building the backend, creating APIs, integrating the database, handling authentication and application logic, debugging issues, and connecting all the components into a working product.\nBuilding the application independently also taught me how to make technical decisions, manage development challenges, structure a project properly, and take responsibility for the complete product rather than working on only one part of it.\nThis became an important milestone in my journey because it strengthened my confidence as a full-stack developer and gave me practical experience in taking an idea from concept to a complete working mobile application.",
+  },
+  {
+    year: "2025",
+    tag: "Experience",
+    title: "Started My Developer Internship",
+    oneLiner:
+      "Joined a startup as a Developer Intern and gained hands-on experience building real-world software solutions.",
+    fullContent:
+      "Towards the end of 2025, I joined a startup as a Developer Intern, taking my first step into a real-world software development environment after completing my engineering degree.\nDuring the internship, I worked on practical development tasks and gained experience understanding project requirements, developing application features, debugging issues, integrating different components, and working with a development team.\nThe experience exposed me to the realities of building software for real users, where writing code was only one part of the process and understanding requirements, collaboration, problem-solving, testing, and delivering reliable solutions were equally important.\nI continued this internship until February 2026, and the experience played an important role in strengthening my technical confidence and understanding of professional software development workflows.",
+  },
+  {
+    year: "2026",
+    tag: "Career",
+    title: "Leading Business Automation Development",
+    oneLiner:
+      "Joined a manufacturing company as a Senior Software Developer to lead the development of custom automation solutions.",
+    fullContent:
+      "In May 2026, I joined a manufacturing company as a full-time Senior Software Developer after being approached to take ownership of software development and automation initiatives.\nAfter understanding the company's existing workflows and project requirements, I began identifying areas where software could reduce manual work, improve operational efficiency, and streamline day-to-day business processes.\nRather than simply implementing predefined requirements, I took the initiative to develop ideas and design custom software applications tailored to the company's specific operational needs. I currently lead the development of these automation solutions, working across application architecture, frontend and backend development, database integration, APIs, and overall system functionality.\nThis role has given me the opportunity to combine my technical development skills with problem-solving and product thinking, transforming real manufacturing challenges into practical software solutions.\nI continue to work in this role as a full-time employee, leading the development of automation-focused applications and working toward building a more technology-driven and efficient business operation.",
   },
 ];
 

@@ -5,16 +5,20 @@ const DETAILS = [
   {
     icon: Mail,
     label: "Email",
-    value: "hello@imrani.dev",
-    href: "mailto:hello@imrani.dev",
+    value: "imran.softdev1@gmail.com",
+    href: "mailto:imran.softdev1@gmail.com",
   },
   { icon: MapPin, label: "Location", value: "India" },
   { icon: Clock, label: "Response Time", value: "Within 24 hours" },
 ];
 
 const SOCIALS = [
-  { icon: LinkedinIcon, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: GithubIcon, href: "https://github.com", label: "GitHub" },
+  {
+    icon: LinkedinIcon,
+    href: "https://linkedin.com/in/imransoftdev02",
+    label: "LinkedIn",
+  },
+  { icon: GithubIcon, href: "https://github.com/Imranweb55", label: "GitHub" },
   { icon: XIcon, href: "https://twitter.com", label: "Twitter" },
 ];
 
