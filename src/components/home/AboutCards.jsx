@@ -1,4 +1,5 @@
 import { User, Code2, Database, Rocket, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const CARDS = [
   {
@@ -44,13 +45,13 @@ export default function AboutCards() {
               {description}
             </p>
             {link && (
-              <a
-                href={link.href}
+              <Link
+                to={link.href}
                 className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-brand-600 hover:text-brand-700"
               >
                 {link.label}
                 <ArrowRight size={14} />
-              </a>
+              </Link>
             )}
           </div>
         ))}

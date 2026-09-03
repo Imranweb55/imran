@@ -1,4 +1,5 @@
 import { ArrowRight, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 import {
   LinkedinIcon,
   GithubIcon,
@@ -60,13 +61,13 @@ export default function Hero() {
               View My Work
               <ArrowRight size={16} />
             </a>
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3.5 text-sm font-medium text-gray-800 transition-colors hover:border-gray-300"
             >
               Contact Me
               <Mail size={16} />
-            </a>
+            </Link>
           </div>
 
           <div className="mt-8 flex items-center gap-4">

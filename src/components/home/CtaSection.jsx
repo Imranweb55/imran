@@ -1,4 +1,5 @@
 import { Mail, MapPin, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function CtaSection() {
   return (
@@ -19,21 +20,21 @@ export default function CtaSection() {
         </div>
 
         <div className="flex w-full flex-col items-start gap-5 md:w-auto md:items-end">
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="inline-flex items-center gap-2 rounded-full bg-brand-600 px-6 py-3.5 text-sm font-medium text-white transition-colors hover:bg-brand-700"
           >
             Get In Touch
             <ArrowRight size={16} />
-          </a>
+          </Link>
           <div className="space-y-2 text-sm text-gray-300">
             <p className="flex items-center gap-2">
               <Mail size={15} />
-              imran.softdev1@gmail.com
+              hello@imrani.dev
             </p>
             <p className="flex items-center gap-2">
               <MapPin size={15} />
-              Chennai, India
+              India
             </p>
           </div>
         </div>
