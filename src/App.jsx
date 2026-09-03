@@ -3,10 +3,9 @@ import Navbar from "./components/layout/Navbar.jsx";
 import Footer from "./components/layout/Footer.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
-// import Skills from "./pages/Skills.jsx";
-// import Projects from "./pages/Projects.jsx";
-// import Experience from "./pages/Experience.jsx";
 import Contact from "./pages/Contact.jsx";
+import Terms from "./pages/Terms.jsx";
+import Privacy from "./pages/Privacy.jsx";
 
 /**
  * App is the single persistent shell for the whole site.
@@ -21,10 +20,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/experience" element={<Experience />} /> */}
           <Route path="/contact" element={<Contact />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy-policy" element={<Privacy />} />
         </Routes>
       </main>
       <Footer />

@@ -30,11 +30,11 @@ export default function CtaSection() {
           <div className="space-y-2 text-sm text-gray-300">
             <p className="flex items-center gap-2">
               <Mail size={15} />
-              hello@imrani.dev
+              imran.softdev1@gmail.com
             </p>
             <p className="flex items-center gap-2">
               <MapPin size={15} />
-              India
+              Chennai, India
             </p>
           </div>
         </div>
