@@ -92,7 +92,7 @@ const JOURNEY = [
   },
   {
     year: "2026",
-    tag: "Career",
+    tag: "Present",
     title: "Leading Business Automation Development",
     oneLiner:
       "Joined a manufacturing company as a Senior Software Developer to lead the development of custom automation solutions.",
